@@ -20,6 +20,7 @@ header {
     padding: 1rem;
 }
 
+/* Navigation styles */
 header nav ul {
     list-style: none;
 }
@@ -53,7 +54,6 @@ h1, h2, h3 {
     height: 150px; /* Adjust the height to your desired size */
     object-fit: cover; /* Maintain aspect ratio */
 }
-
 
 /* Footer styles */
 footer {
@@ -130,4 +130,3 @@ footer {
 .dark-mode footer {
     background-color: #111;
 }
-
