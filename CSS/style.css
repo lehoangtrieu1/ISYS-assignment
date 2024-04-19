@@ -34,12 +34,12 @@ nav {
     height: 17vh;
 }
 
-.nav-links {
+.nav {
     list-style: none;
     font-size: 1.5rem;
 }
 
-.nav-links a {
+.nav {
     color: #fff;
     text-decoration: none;
     text-underline-offset: 1rem;
@@ -47,7 +47,7 @@ nav {
     transition: color 0.3s ease; /* Smooth transition for color change */
 }
 
-.nav-links a:hover {
+.nav:hover {
     color: #ccc; /* Change color on hover */
 }
 
