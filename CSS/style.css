@@ -21,29 +21,30 @@ header {
 }
 
 /* Navigation styles */
-nav,
-.nav-links {
-    display: flex;
-}
-
 nav {
+    display: flex;
     justify-content: space-around;
     align-items: center;
     height: 17vh;
 }
 
 .nav-links {
-    gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
 }
 
-a {
-    color: black;
-    text-decoration: underline;
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181,181,181);
+    transition: color 0.3s ease; /* Smooth transition for color change */
 }
+
+.nav-links a:hover {
+    color: #ccc; /* Change color on hover */
+}
+
 /* Section styles */
 section {
     padding: 2rem;
@@ -59,9 +60,9 @@ h1, h2, h3 {
 }
 
 .project img {
-    width: 200px; /* Adjust the width to your desired size */
-    height: 150px; /* Adjust the height to your desired size */
-    object-fit: cover; /* Maintain aspect ratio */
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove default inline display */
 }
 
 /* Footer styles */
@@ -123,9 +124,14 @@ footer {
 
 /* Responsive styles */
 @media (max-width: 768px) {
-    header nav ul li {
-        display: block;
-        margin-bottom: 1rem;
+    nav {
+        flex-direction: column; /* Stack navigation links vertically on small screens */
+        height: auto; /* Auto height for better responsiveness */
+    }
+
+    .nav-links {
+        margin-top: 1rem; /* Add spacing between navigation links on small screens */
+        text-align: center; /* Center-align navigation links */
     }
 }
 
