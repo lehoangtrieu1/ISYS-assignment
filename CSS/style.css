@@ -21,20 +21,29 @@ header {
 }
 
 /* Navigation styles */
-header nav ul {
+nav,
+.nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-links {
+    gap: 2rem;
     list-style: none;
+    font-size: 1.5rem;
 }
 
-header nav ul li {
-    display: inline;
-    margin-right: 1rem;
+a {
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181,181,181);
 }
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
 /* Section styles */
 section {
     padding: 2rem;
