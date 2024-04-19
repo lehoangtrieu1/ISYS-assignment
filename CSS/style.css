@@ -28,29 +28,22 @@ header h1 {
 
 /* Navigation styles */
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 17vh;
+    background-color: darkgray;
+    text-align: left;
+    padding: 10px; /* Adding units to padding */
 }
 
-.nav {
-    list-style: none;
-    font-size: 1.5rem;
-}
-
-.nav {
-    color: #fff;
+nav a {
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
     text-decoration: none;
-    text-underline-offset: 1rem;
-    text-decoration-color: rgb(181,181,181);
-    transition: color 0.3s ease; /* Smooth transition for color change */
 }
 
-.nav:hover {
-    color: #ccc; /* Change color on hover */
+nav a:hover {
+    background-color: lightgray;
+    color: black;
 }
-
 /* Section styles */
 section {
     padding: 2rem;
