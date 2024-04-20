@@ -20,7 +20,7 @@ header h1 {
     text-align: center;
     height: 80px;
     line-height: 80px;
-  }
+}
 
 /* Header styles */
 header {
@@ -40,7 +40,7 @@ nav {
 
 li {
     display: inline;
-  }
+}
 
 nav a {
     color: white;  
@@ -64,9 +64,10 @@ h1, h2, h3 {
 }
 
 /* Additional style */
-ul.a {
+.project-description ul.a {
     list-style-type: circle;
-  }
+    margin-left: 20px; /* Adjust the indentation */
+}
 
 /* Project section styles */
 
@@ -161,4 +162,3 @@ footer {
 .dark-mode footer {
     background-color: black;
 }
-
