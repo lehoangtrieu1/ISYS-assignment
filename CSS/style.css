@@ -165,3 +165,8 @@ footer {
 .dark-mode footer {
     background-color: black;
 }
+
+/* Additional style */
+.a {
+    list-style-type: circle;
+}
