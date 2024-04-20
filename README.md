@@ -4,9 +4,9 @@
 
 **Special Features:**
 
- 1. Responsive Design: The website is optimized for viewing on various devices, ensuring a seamless user experience across desktops, tablets, and smartphones.
- 2. Dark Mode Toggle: Users can switch between light and dark themes with the click of a button, enhancing readability and customization options.
- 3. User-Friendly Interface: The website features intuitive navigation and a clean layout to facilitate easy exploration of content.
+ Responsive Design: The website is optimized for viewing on various devices, ensuring a seamless user experience across desktops, tablets, and smartphones.
+ Dark Mode Toggle: Users can switch between light and dark themes with the click of a button, enhancing readability and customization options.
+ User-Friendly Interface: The website features intuitive navigation and a clean layout to facilitate easy exploration of content.
 
 **Instructions:**
 
