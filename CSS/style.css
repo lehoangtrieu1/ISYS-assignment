@@ -30,19 +30,21 @@ header {
 
 
 /* Navigation styles */
+/* Navigation styles */
 nav {
-    display: flex; /* Use Flexbox */
+    display: flex;
     justify-content: center; /* Center-align navigation items horizontally */
     align-items: center; /* Center-align navigation items vertically */
     background-color: black;
     color: white;
-    text-align: left;
     padding: 10px;
 }
 
 .nav-links {
     list-style: none;
     display: flex; /* Use Flexbox */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
 .nav-links li {
@@ -60,6 +62,7 @@ nav a:hover {
     background-color: white;
     color: black;
 }
+
 
 
 /* Section styles */
