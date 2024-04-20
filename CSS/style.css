@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 /* Body styles */
@@ -27,22 +26,15 @@ header h1 {
 }
 
 /* Navigation styles */
+nav,
+.nav-links {
+    display: flex;
+}
+
 nav {
-    background-color: darkgray;
-    text-align: right;
-    padding: 10px; /* Adding units to padding */
-}
-
-nav a {
-    color: white;
-    text-align: center;
-    padding: 10px 16px; /* Change padding to pixels */
-    text-decoration: none;
-}
-
-nav a:hover {
-    background-color: lightgray;
-    color: black;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
 }
 
 /* Section styles */
