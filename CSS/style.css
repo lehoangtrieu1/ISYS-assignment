@@ -36,11 +36,12 @@ nav {
     background-color: black;
     color: white;
 }
-
+/* Navigation styles horizontally */
 li.inline {
     display: inline;
 }
 
+/* Navigation styles */
 nav a {
     color: white;  
     text-align: center;
@@ -90,7 +91,7 @@ footer {
 
 .social-links li {
     display: inline;
-    margin-right: 16px; /* Change margin to pixels */
+    margin-right: 16px; 
 }
 
 .social-links li a {
