@@ -30,11 +30,10 @@ header {
 
 
 /* Navigation styles */
-/* Navigation styles */
 nav {
-    display: flex;
-    justify-content: center; /* Center-align navigation items horizontally */
-    align-items: center; /* Center-align navigation items vertically */
+    display: flex; /* Use Flexbox to enable horizontal layout */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: center; /* Center-align items vertically */
     background-color: black;
     color: white;
     padding: 10px;
@@ -42,7 +41,7 @@ nav {
 
 .nav-links {
     list-style: none;
-    display: flex; /* Use Flexbox */
+    display: flex; /* Use Flexbox for navigation links */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
 }
@@ -53,8 +52,6 @@ nav {
 
 nav a {
     color: white;  
-    text-align: center;
-    padding: 10px;
     text-decoration: none;
 }
 
@@ -62,8 +59,6 @@ nav a:hover {
     background-color: white;
     color: black;
 }
-
-
 
 /* Section styles */
 section {
