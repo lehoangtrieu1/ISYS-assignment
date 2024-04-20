@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+/* Additional style */
+ul.a {
+    list-style-type: circle;
+  }
+  
 /* Body styles */
 body {
     margin: 0 auto;  /* centers the <body> within the page */
@@ -62,10 +67,6 @@ h1, h2, h3 {
     margin-bottom: 16px; 
 }
 
-/* Additional style */
-ul.a {
-    list-style-type: circle;
-}
 
 
 /* Project section styles */
