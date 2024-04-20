@@ -4,11 +4,6 @@
     padding: 0;
 }
 
-/* Additional style */
-ul.a {
-    list-style-type: circle;
-  }
-  
 /* Body styles */
 body {
     margin: 0 auto;  /* centers the <body> within the page */
@@ -58,6 +53,11 @@ nav a:hover {
     color: black;
 }
 
+/* Additional style */
+ul.a {
+    list-style-type: circle;
+  }
+
 /* Section styles */
 section {
     padding: 32px; 
@@ -84,15 +84,11 @@ h1, h2, h3 {
     margin-top: 16px; /* Add margin to separate image and description */
 }
 
-.project-description ul {
-    margin-left: 20px; /* Indent bullet points */
-}
-
 /* Footer styles */
 footer {
     background-color: black;
     color: white;
-    padding: 16px; /* Change padding to pixels */
+    padding: 16px;
     text-align: center;
 }
 
