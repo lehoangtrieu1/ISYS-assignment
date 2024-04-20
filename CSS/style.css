@@ -26,15 +26,25 @@ header h1 {
 }
 
 /* Navigation styles */
-nav,
-.nav-links {
-    display: flex;
-}
-
 nav {
+    display: flex;
     justify-content: space-around;
     align-items: center;
     height: 17vh;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 16px; /* Change margin to pixels */
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
 }
 
 /* Section styles */
@@ -119,11 +129,15 @@ footer {
     nav {
         flex-direction: column; /* Stack navigation links vertically on small screens */
         height: auto; /* Auto height for better responsiveness */
+        align-items: center; /* Center-align navigation links */
     }
 
     .nav-links {
         margin-top: 16px; /* Add spacing between navigation links on small screens */
-        text-align: center; /* Center-align navigation links */
+    }
+
+    .nav-links li {
+        margin-right: 0; /* Remove right margin for navigation links on small screens */
     }
 }
 
