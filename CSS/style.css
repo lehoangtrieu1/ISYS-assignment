@@ -28,25 +28,39 @@ header {
     color: white;
 }
 
+
 /* Navigation styles */
 nav {
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center-align navigation items horizontally */
+    align-items: center; /* Center-align navigation items vertically */
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex; /* Use Flexbox */
+}
+
+.nav-links li {
+    margin-right: 10px; /* Adjust spacing between navigation items */
 }
 
 nav a {
     color: white;  
     text-align: center;
-    padding: 10px; /* top-bottom padding must match <nav> */
+    padding: 10px;
     text-decoration: none;
 }
 
 nav a:hover {
     background-color: white;
     color: black;
-  }
+}
+
 
 /* Section styles */
 section {
