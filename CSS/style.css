@@ -37,6 +37,10 @@ nav {
     color: white;
 }
 
+li {
+    display: inline;
+  }
+  
 nav a {
     color: white;  
     text-align: center;
