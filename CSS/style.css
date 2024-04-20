@@ -6,10 +6,9 @@
 
 /* Body styles */
 body {
-    width: 700px;  /* arbitrary choice, could do %, but px for now */
     margin: 0 auto;  /* centers the <body> within the page */
     padding: 0;
-    text-align: center;
+    line-height: 26px;
     font-family: Helvetica, sans-serif;
     background-color: white;
     color: black;
