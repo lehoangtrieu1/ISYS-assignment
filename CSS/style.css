@@ -31,8 +31,8 @@ header {
 
 /* Navigation styles */
 nav {
-    text-align: left;
-    padding: 10px;
+    text-align: center;
+    padding: 0 auto;
     background-color: black;
     color: white;
 }
