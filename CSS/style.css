@@ -6,38 +6,46 @@
 
 /* Body styles */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    width: 700px;  /* arbitrary choice, could do %, but px for now */
+    margin: 0 auto;  /* centers the <body> within the page */
+    padding: 0;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
     background-color: white;
     color: black;
 }
+
+/* Header h1 styles */
+header h1 {
+    height: 80px;
+    line-height: 80px;
+  }
 
 /* Header styles */
 header {
     background-color: black;
     color: white;
-    padding: 16px; /* Change padding to pixels */
-    display: flex;
-    justify-content: space-between; /* Align items to opposite ends */
 }
 
 /* Navigation styles */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 17vh;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-}
-
-.nav-links {
+    background-color: black;
     color: white;
+    text-align: left;
+    padding: 10px;
+}
+
+nav a {
+    color: white;  
+    text-align: center;
+    padding: 10px; /* top-bottom padding must match <nav> */
     text-decoration: none;
 }
+
+nav a:hover {
+    background-color: white;
+    color: black;
+  }
 
 /* Section styles */
 section {
