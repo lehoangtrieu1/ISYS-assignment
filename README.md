@@ -26,7 +26,7 @@
 
  This project is licensed under the MIT License - see the LICENSE file for details.
 
-**References: **
+**References:**
 
 1. https://chat.openai.com/share/035a9562-b1b3-4122-9d5b-d08b55fff21f
 2. https://www.w3schools.com/css/css_list.asp
