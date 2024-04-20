@@ -32,14 +32,9 @@ nav {
 .nav-links {
     list-style: none;
     display: flex;
-    margin-right: 16px; /* Adjust margin between items */
 }
 
-.nav-links li {
-    margin-left: 16px;
-}
-
-.nav-links li a {
+.nav-links {
     color: white;
     text-decoration: none;
 }
