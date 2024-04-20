@@ -63,10 +63,9 @@ h1, h2, h3 {
     margin-bottom: 16px; 
 }
 
-/* Additional style */
-.project-description ul.a {
+.a {
     list-style-type: circle;
-    margin-left: 20px; /* Adjust the indentation */
+    /* Additional styling for elements with class "a" */
 }
 
 /* Project section styles */
