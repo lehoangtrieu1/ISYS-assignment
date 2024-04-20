@@ -1,14 +1,14 @@
-Overview:
+**Overview:**
 
  This project is my personal portfolio website developed as part of the ISYS3004 Business Web and Mobile Technologies course. Furthermore, it functions as a platform to demonstrate my proficiency in web development and offers insights into my background, projects, and contact details.
 
-Special Features:
+**Special Features:**
 
- Responsive Design: The website is optimized for viewing on various devices, ensuring a seamless user experience across desktops, tablets, and smartphones.
- Dark Mode Toggle: Users can switch between light and dark themes with the click of a button, enhancing readability and customization options.
- User-Friendly Interface: The website features intuitive navigation and a clean layout to facilitate easy exploration of content.
+ 1. Responsive Design: The website is optimized for viewing on various devices, ensuring a seamless user experience across desktops, tablets, and smartphones.
+ 2. Dark Mode Toggle: Users can switch between light and dark themes with the click of a button, enhancing readability and customization options.
+ 3. User-Friendly Interface: The website features intuitive navigation and a clean layout to facilitate easy exploration of content.
 
-Instructions:
+**Instructions:**
 
  To run the website locally, follow these steps:
 1. Dowload the zip file
@@ -16,17 +16,18 @@ Instructions:
 3. Open the index.html file, it will run locally on your machine
 4. Toggle Dark Mode: To activate Dark Mode, just click the "Toggle Dark Mode" button situated in the website's header. This action will switch the theme between light and dark modes, adapting to your preference.
 
-Technologies Used:
+**Technologies Used:**
 
 1. HTML5
 2. CSS3
 3. JavaScript
 
-License:
+**License:**
 
  This project is licensed under the MIT License - see the LICENSE file for details.
 
-References: 
+**References: **
+
 1. https://chat.openai.com/share/035a9562-b1b3-4122-9d5b-d08b55fff21f
 2. https://www.w3schools.com/css/css_list.asp
 3. https://in.pinterest.com/pin/781022760374789123/
