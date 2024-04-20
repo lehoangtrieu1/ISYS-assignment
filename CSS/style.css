@@ -38,10 +38,10 @@ nav {
     color: white;
 }
 
-/*li {
+li.inline {
     display: inline;
 }
-*/
+
 nav a {
     color: white;  
     text-align: center;
