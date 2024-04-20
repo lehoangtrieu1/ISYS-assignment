@@ -63,7 +63,7 @@ h1, h2, h3 {
     margin-bottom: 16px; 
 }
 
-li.a {
+ul.a {
     list-style-type: circle;
 }
 
@@ -73,7 +73,7 @@ li.a {
 .project img {
     width: 100%; /* Make the image responsive */
     height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove default inline display */
+    /* display: block; /* Remove default inline display */
 }
 
 /* Footer styles */
