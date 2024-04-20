@@ -55,7 +55,7 @@ nav a:hover {
 
 /* Section styles */
 section {
-    padding: 32px; /* Change padding to pixels */
+    padding: 32px; 
 }
 
 h1, h2, h3 {
@@ -71,6 +71,14 @@ h1, h2, h3 {
     width: 100%; /* Make the image responsive */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove default inline display */
+}
+
+.project-description {
+    margin-top: 16px; /* Add margin to separate image and description */
+}
+
+.project-description ul {
+    margin-left: 20px; /* Indent bullet points */
 }
 
 /* Footer styles */
@@ -156,9 +164,4 @@ footer {
 .dark-mode header,
 .dark-mode footer {
     background-color: black;
-}
-
-/* Additional style */
-ul.a {
-    list-style-type: circle;
 }
