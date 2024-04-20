@@ -8,14 +8,14 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: white;
+    color: black;
 }
 
 /* Header styles */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: black;
+    color: white;
     padding: 16px; /* Change padding to pixels */
 }
 
@@ -39,7 +39,7 @@ nav {
 }
 
 .nav-links li {
-    margin-right: 16px; /* Change margin to pixels */
+    margin-right: 16px; 
 }
 
 .nav-links li a {
@@ -69,8 +69,8 @@ h1, h2, h3 {
 
 /* Footer styles */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: black;
+    color: white;
     padding: 16px; /* Change padding to pixels */
     text-align: center;
 }
@@ -85,7 +85,7 @@ footer {
 }
 
 .social-links li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
 }
 
@@ -99,19 +99,19 @@ footer {
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+    background-color: black; 
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: white;
     margin: 10% auto; /* 10% from the top and centered */
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid gray;
     width: 80%; /* Could be more or less, depending on screen size */
 }
 
 .close-modal {
-    color: #aaa;
+    color: gray;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -143,11 +143,11 @@ footer {
 
 /* Dark mode styles */
 .dark-mode {
-    background-color: #222;
-    color: #fff;
+    background-color: black;
+    color: white;
 }
 
 .dark-mode header,
 .dark-mode footer {
-    background-color: #111;
+    background-color: black;
 }
