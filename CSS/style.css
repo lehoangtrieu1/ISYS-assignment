@@ -14,6 +14,10 @@ body {
     color: black;
 }
 
+ul.a {
+    list-style-type: circle;
+  }
+  
 /* Header h1 styles */
 header h1 {
     text-align: center;
@@ -40,7 +44,7 @@ nav {
 li {
     display: inline;
   }
-  
+
 nav a {
     color: white;  
     text-align: center;
