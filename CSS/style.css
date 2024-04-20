@@ -17,6 +17,8 @@ header {
     background-color: black;
     color: white;
     padding: 16px; /* Change padding to pixels */
+    display: flex;
+    justify-content: space-between; /* Align items to opposite ends */
 }
 
 /* Logo styles */
@@ -28,7 +30,7 @@ header h1 {
 /* Navigation styles */
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end; /* Align navigation to the right */
     align-items: center;
     height: 17vh;
 }
