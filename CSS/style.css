@@ -63,9 +63,8 @@ h1, h2, h3 {
     margin-bottom: 16px; 
 }
 
-.a {
+ul.a {
     list-style-type: circle;
-    /* Additional styling for elements with class "a" */
 }
 
 /* Project section styles */
